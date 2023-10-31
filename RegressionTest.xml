@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NextGen App" verbose="2">
+    <listeners>
+        <listener class-name="utils.listeners.TestListener"/>
+        <listener class-name="utils.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Regression Suite" parallel="false">
+        <parameter name="Fleet Management App" value=""/>
+        <classes>
+<!--            <class name="Tests.FMASprint1.Android.Login"/>-->
+<!--            <class name="VehicleManagement.Tests.FMASprint1.Android.AdminManagement"/>-->
+<!--            <class name="VehicleManagement.Tests.FMASprint1.Android.AddVehicle"/>-->
+<!--            <class name="VehicleManagement.Tests.FMASprint1.Android.EditVehicle"/>-->
+<!--            <class name="DriversManagement.Tests.FMASprint1.Android.DriverCreationTest"/>-->
+            <class name="IncidentManagement.Tests.FMASprint1.Android.IncidentCreationTests"/>
+            <class name="IncidentManagement.Tests.FMASprint1.Android.IncidentRecordDetailsTest"/>
+            <class name="Location.Tests.FMASprint1.Android.LocationManagement"/>
+        </classes>
+    </test>
+</suite>
